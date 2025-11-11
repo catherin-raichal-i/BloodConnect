@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B91C1C;
+  border-radius: 4px;
+}
+
+
+.scroll-offset {
+  scroll-margin-top: 80px; /* or adjust as needed */
+}
+
+
+@keyframes slide {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-slide {
+  display: inline-block;
+  animation: slide 15s linear infinite;
+}
+
+/* 👇 this class pauses the animation when hovered */
+.hover\:animation-paused:hover {
+  animation-play-state: paused;
+}
