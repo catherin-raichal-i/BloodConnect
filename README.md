@@ -2,7 +2,6 @@
 
 A responsive web app to quickly find and connect blood donors in your local area.
 
---
 
 ## 🚀 Project Overview
 
@@ -12,7 +11,6 @@ Bloods-Connect enables people in urgent need of blood (or those who wish to dona
 - Seekers can search for potential donors by blood group and location, view matches, and send connect requests.
 - Built for fast access during emergencies and for everyday donor-matching to help communities stay prepared.
 
---
 
 ## 🎯 Key Features
 
@@ -23,7 +21,6 @@ Bloods-Connect enables people in urgent need of blood (or those who wish to dona
 - Clean and minimal UX for quick usage during emergencies
 - Future-ready structure for integrations: maps, notifications, donor history
 
---
 
 ## 🛠 Tech Stack
 
@@ -33,7 +30,6 @@ Bloods-Connect enables people in urgent need of blood (or those who wish to dona
 - (Optional) Backend/API: Firebase, Supabase, serverless functions
 - (Optional) LocalStorage for recent searches or saved donors
 
---
 
 ## 🎨 Why It Matters
 
@@ -44,7 +40,6 @@ Blood donation can be a life-or-death necessity. Bloods-Connect helps by:
 - Building stronger, community-based blood networks  
 - Empowering anyone to find help with just a few clicks  
 
---
 
 ## ✅ What’s Done
 
@@ -54,7 +49,6 @@ Blood donation can be a life-or-death necessity. Bloods-Connect helps by:
 - Search/filter logic by blood group & location  
 - Live hosting via Vercel  
 
---
 
 ## 🔧 What’s Next
 
@@ -66,13 +60,12 @@ Blood donation can be a life-or-death necessity. Bloods-Connect helps by:
 - UX upgrades: dark mode, offline caching, accessibility improvements  
 - Add **multi-language support**  
 
---
 
 ## 📁 How to Run Locally
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone <https://github.com/catherin-raichal-i/BloodConnect>
 cd bloods-connect
 
 # Install dependencies
@@ -80,3 +73,16 @@ npm install
 
 # Start development server
 npm run dev
+
+
+## Build for production:
+npm run build
+npm run start
+
+##📄 License
+
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+##📬 Support / Contact
+
+If you find bugs or have suggestions, feel free to open an issue or submit a pull request.
