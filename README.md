@@ -42,9 +42,7 @@ Live Demo: [https://bloods-connect.vercel.app/](https://bloods-connect.vercel.ap
 ## 👩‍💻 Author
 **Catherin Raichal I**
 
-📧 Email: [catherin.raichal@example.com](mailto:catherin.raichal@example.com)  
-
-🔗 Portfolio: [https://catherinportfolio.com](https://catherinportfolio.com)  
-🔗 GitHub: [Github](https://github.com/catherin-raichal-i/)  
-🔗 LinkedIn: [Linkedin](https://www.linkedin.com/in/catherin-raichal/)
+📧 Email: [raichal.catherin@gmail.com](mailto:raichal.catherin@gmail.com)  
+ 
+🔗 GitHub: [Github](https://github.com/catherin-raichal-i/)  | LinkedIn: [Linkedin](https://www.linkedin.com/in/catherin-raichal/)
 
