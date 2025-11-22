@@ -23,17 +23,17 @@ Bloods-Connect enables people in urgent need of blood (or those who wish to dona
 - Clean and minimal UX for quick usage during emergencies
 - Future-ready structure for integrations: maps, notifications, donor history
 
----
+--
 
 ## 🛠 Tech Stack
 
-- **Front-end:** HTML5, CSS3 / TailwindCSS, JavaScript (or React.js if used)
+- **Front-end:** HTML5, TailwindCSS,  React.js
 - Fully responsive across devices
 - Hosted on **Vercel**
 - (Optional) Backend/API: Firebase, Supabase, serverless functions
 - (Optional) LocalStorage for recent searches or saved donors
 
----
+--
 
 ## 🎨 Why It Matters
 
@@ -44,7 +44,7 @@ Blood donation can be a life-or-death necessity. Bloods-Connect helps by:
 - Building stronger, community-based blood networks  
 - Empowering anyone to find help with just a few clicks  
 
----
+--
 
 ## ✅ What’s Done
 
@@ -54,9 +54,9 @@ Blood donation can be a life-or-death necessity. Bloods-Connect helps by:
 - Search/filter logic by blood group & location  
 - Live hosting via Vercel  
 
----
+--
 
-## 🔧 What’s Next / Roadmap
+## 🔧 What’s Next
 
 - Add **authentication** for donor profile management  
 - Add **map view** for location-based donor listing  
@@ -66,7 +66,7 @@ Blood donation can be a life-or-death necessity. Bloods-Connect helps by:
 - UX upgrades: dark mode, offline caching, accessibility improvements  
 - Add **multi-language support**  
 
----
+--
 
 ## 📁 How to Run Locally
 
