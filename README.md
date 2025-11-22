@@ -38,9 +38,13 @@ Live Demo: [https://bloods-connect.vercel.app/](https://bloods-connect.vercel.ap
 
 
 
-👩‍💻 Author
 
-Catherin Raichal I
+## 👩‍💻 Author
+**Catherin Raichal I**
 
-📧 raichal.catherin@gmail.com
+📧 Email: [catherin.raichal@example.com](mailto:catherin.raichal@example.com)  
+
+🔗 Portfolio: [https://catherinportfolio.com](https://catherinportfolio.com)  
+🔗 GitHub: [Github](https://github.com/catherin-raichal-i/)  
+🔗 LinkedIn: [Linkedin](https://www.linkedin.com/in/catherin-raichal/)
 
