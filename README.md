@@ -1,48 +1,66 @@
-# 🩸 Bloods-Connect – Responsive Blood Donor Finder  
-👩‍💻 Author: **Catherin Raichal I**
+# 🩸 Bloods-Connect – Responsive Blood Donor Finder
 
----
+## 📖 Project Overview
+**Bloods-Connect** is a modern, responsive web application designed to help people quickly find and connect with blood donors in their local area.  
+The platform allows donors to register their details (blood group, location, contact info) and mark themselves as available.  
+Seekers can search for potential donors by blood group and location to request assistance.  
+Hosted on **Vercel**, Bloods-Connect provides a clean, intuitive interface for emergency blood requests and everyday donor matching.
 
-## 📖 Project Overview  
-Bloods-Connect is a modern, responsive web application designed to help people quickly find and connect with blood donors in their local area.  
-It simplifies the donor–seeker interaction with an intuitive UI, real-time donor availability, and easy search features for urgent situations.
+Live Demo: [https://bloods-connect.vercel.app/](https://bloods-connect.vercel.app/)
 
-The platform is built to support fast access during emergencies while maintaining a clean, user-friendly experience across all devices.
 
----
 
-## 🎯 Goals  
-- Provide a simple and responsive platform to locate blood donors quickly.  
-- Allow users to filter donors by blood group and location.  
-- Enable convenient donor registration with availability status.  
-- Deliver a clean, distraction-free interface optimized for emergency use.  
-- Ensure accessibility and responsiveness for mobile, tablet, and desktop devices.
+## 🎯 Goals
+- Provide a fast and accessible platform to locate blood donors in emergencies.  
+- Allow users to search and filter donors by blood group and area.  
+- Enable donors to register, manage, and update their availability.  
+- Deliver a responsive, user-friendly interface for all devices.  
+- Build a community of proactive blood donors to save lives.
 
----
 
-## ✨ Features  
-🩸 **Donor Registration** – Add donor details like blood group, location, and contact.  
-🔍 **Smart Search & Filter** – Find donors by blood group + city/locality.  
-🟢 **Availability Toggle** – Donors can mark themselves available/unavailable.  
-📱 **Fully Responsive UI** – Works seamlessly on all screen sizes.  
-🧭 **Clean UX** – Minimalistic design for quick decision-making during emergencies.  
-🗺️ **Future Integration Ready** – Map view, notifications, and donor history can be added.  
 
----
+## ✨ Features
+- 🩸 **Donor Registration** – Add donor details including blood group, location, and contact.  
+- 🔍 **Search & Filter** – Quickly find donors by blood group and locality.  
+- 🟢 **Availability Toggle** – Donors can mark themselves available or unavailable.  
+- 📱 **Responsive UI** – Optimized for desktop, tablet, and mobile devices.  
+- 🧭 **Clean UX** – Minimalistic interface for fast access in urgent situations.  
+- 🗺️ **Future Ready** – Supports potential integration of maps, notifications, and donor history.
 
-## 🛠️ Tech Stack  
 
-| Category        | Tech Used                         |
-|----------------|-----------------------------------|
-| Frontend       | HTML5, CSS3 / TailwindCSS, JavaScript |
-| Hosting        | Vercel                            |
-| Optional Backend | Firebase / Supabase / Serverless APIs |
+## 🛠️ Tech Stack
 
----
+| Category        | Technology |
+|-----------------|------------|
+| Frontend        | React.js / JavaScript / HTML5 / CSS3 |
+| Styling         | TailwindCSS |
+| Hosting         | Vercel |
+| Backend / DB    | Firebase / Supabase / Serverless APIs (optional) |
 
-## 🚀 Installation & Setup  
 
-### Clone the repository:
+## 🚀 Installation & Setup
+
+### 1️⃣ Clone the Repository
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/catherin-raichal-i/BloodConnect>
 cd bloods-connect
+
+### 2️⃣ Install Dependencies
+```bash
+npm install
+
+### 3️⃣ Start Development Server
+```bash
+npm start
+
+### 4️⃣ Open in Browser
+```bash
+http://localhost:3000
+
+####
+```bash
+
+
+npm install
+git clone https://github.com/yourusername/wanderlust.git
+cd wanderlust
