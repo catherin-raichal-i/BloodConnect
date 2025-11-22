@@ -2,7 +2,7 @@
 
 A responsive web app to quickly find and connect blood donors in your local area.
 
----
+--
 
 ## 🚀 Project Overview
 
@@ -12,7 +12,7 @@ Bloods-Connect enables people in urgent need of blood (or those who wish to dona
 - Seekers can search for potential donors by blood group and location, view matches, and send connect requests.
 - Built for fast access during emergencies and for everyday donor-matching to help communities stay prepared.
 
----
+--
 
 ## 🎯 Key Features
 
