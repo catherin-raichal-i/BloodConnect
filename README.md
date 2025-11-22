@@ -35,7 +35,6 @@ Live Demo: [https://bloods-connect.vercel.app/](https://bloods-connect.vercel.ap
 | Frontend        | React.js / JavaScript / HTML5 / CSS3 |
 | Styling         | TailwindCSS |
 | Hosting         | Vercel |
-| Backend / DB    | Firebase / Supabase / Serverless APIs (optional) |
 
 
 ## 🚀 Installation & Setup
