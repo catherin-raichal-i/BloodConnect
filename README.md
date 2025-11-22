@@ -37,29 +37,9 @@ Live Demo: [https://bloods-connect.vercel.app/](https://bloods-connect.vercel.ap
 | Hosting         | Vercel |
 
 
-## 🚀 Installation & Setup
 
-### 1️⃣ Clone the Repository
-```bash
-git clone <https://github.com/catherin-raichal-i/BloodConnect>
-cd bloods-connect
+👩‍💻 Author
 
-### 2️⃣ Install Dependencies
-```bash
-npm install
+Catherin Raichal I
+📧 raichal.catherin@gmail.com
 
-### 3️⃣ Start Development Server
-```bash
-npm start
-
-### 4️⃣ Open in Browser
-```bash
-http://localhost:3000
-
-####
-```bash
-
-
-npm install
-git clone https://github.com/yourusername/wanderlust.git
-cd wanderlust
