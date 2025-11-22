@@ -1,17 +1,9 @@
-// import Blogs_1 from '../assets/Blogs_9.jpg';
-// import Blogs_2 from '../assets/blog_4.webp';
-// import Blogs_3 from '../assets/Blogs_2.avif';
-// import Blogs_4 from '../assets/Blogs_3.jpg';
-// import Blogs_5 from '../assets/Blogs_5.webp';
-// import Blogs_6 from '../assets/Blogs_1.jpg';
 import Blogs_1 from '../assets/Blogs_1.jpg';
 import Blogs_2 from '../assets/Blogs_2.webp';
 import Blogs_3 from '../assets/Blogs_3.avif';
 import Blogs_4 from '../assets/Blogs_4.jpg';
 import Blogs_5 from '../assets/Blogs_5.webp';
 import Blogs_6 from '../assets/Blogs_6.jpg';
-
-
 
 const blogs = [
   {
@@ -83,4 +75,5 @@ const blogs = [
 ];
 
 export default blogs;
+
 
