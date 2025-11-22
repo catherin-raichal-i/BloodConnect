@@ -27,8 +27,7 @@ Bloods-Connect enables people in urgent need of blood (or those who wish to dona
 - **Front-end:** HTML5, TailwindCSS,  React.js
 - Fully responsive across devices
 - Hosted on **Vercel**
-- (Optional) Backend/API: Firebase, Supabase, serverless functions
-- (Optional) LocalStorage for recent searches or saved donors
+- LocalStorage for recent searches or saved donors
 
 
 ## 🎨 Why It Matters
@@ -74,15 +73,3 @@ npm install
 # Start development server
 npm run dev
 
-
-## Build for production:
-npm run build
-npm run start
-
-##📄 License
-
-This project is licensed under the MIT License — see the LICENSE file for details.
-
-##📬 Support / Contact
-
-If you find bugs or have suggestions, feel free to open an issue or submit a pull request.
