@@ -247,13 +247,22 @@ const BloodBanksPage = () => {
 
                   {/* Action Buttons */}
                   <div className="flex space-x-2">
-                    <button className="flex-1 cursor-pointer bg-red-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-red-700 transition-colors duration-200">
+                    <a
+                      href={`tel:${bank.phone}`}
+                      className="flex-1 flex justify-center items-center cursor-pointer bg-red-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-red-700 transition-colors duration-200"
+                    >
                       Call Now
-                    </button>
-                    <button className="flex-1 cursor-pointer bg-blue-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors duration-200">
+                    </a>
+                    <a
+                      href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(bank.address + ', ' + bank.city)}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 flex justify-center items-center cursor-pointer bg-blue-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors duration-200"
+                    >
                       Get Directions
-                    </button>
+                    </a>
                   </div>
+                  
                 </div>
               </div>
             ))}
@@ -305,3 +314,4 @@ const BloodBanksPage = () => {
 };
 
 export default BloodBanksPage;
+
