@@ -13,7 +13,7 @@ const sampleDonors = [
     id: '1',
     name: 'John Smith',
     bloodGroup: 'O+',
-    city: 'New York',
+    city: 'Tharamani, Chennai.',
     phone: '+1-555-0101',
     email: 'john.smith@email.com',
     age: 28,
@@ -25,7 +25,7 @@ const sampleDonors = [
     id: '2',
     name: 'Sarah Johnson',
     bloodGroup: 'A+',
-    city: 'Los Angeles',
+    city: 'Chengalpattu.',
     phone: '+1-555-0102',
     email: 'sarah.j@email.com',
     age: 32,
@@ -37,7 +37,7 @@ const sampleDonors = [
     id: '3',
     name: 'Michael Brown',
     bloodGroup: 'B+',
-    city: 'Chicago',
+    city: 'Egmore, Chennai.',
     phone: '+1-555-0103',
     email: 'mike.brown@email.com',
     age: 25,
@@ -49,7 +49,7 @@ const sampleDonors = [
     id: '4',
     name: 'Emily Davis',
     bloodGroup: 'AB+',
-    city: 'Houston',
+    city: 'Kanjipuram',
     phone: '+1-555-0104',
     email: 'emily.davis@email.com',
     age: 29,
@@ -61,7 +61,7 @@ const sampleDonors = [
     id: '5',
     name: 'David Wilson',
     bloodGroup: 'O-',
-    city: 'Phoenix',
+    city: 'Cuddalore',
     phone: '+1-555-0105',
     email: 'david.w@email.com',
     age: 34,
@@ -73,7 +73,7 @@ const sampleDonors = [
     id: '6',
     name: 'Lisa Anderson',
     bloodGroup: 'A-',
-    city: 'Philadelphia',
+    city: 'Virudachalam',
     phone: '+1-555-0106',
     email: 'lisa.anderson@email.com',
     age: 27,
@@ -211,3 +211,4 @@ export function useData() {
   }
   return context;
 }
+
