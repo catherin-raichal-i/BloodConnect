@@ -5,13 +5,14 @@ const BloodBanksPage = () => {
   const [searchCity, setSearchCity] = useState('');
   const [selectedBloodType, setSelectedBloodType] = useState('');
 
+
   const bloodBanks = [
     {
       id: '1',
-      name: 'City General Blood Bank',
-      address: '123 Medical Center Dr',
-      city: 'New York',
-      phone: '+1 (555) 123-4567',
+      name: 'ANNAI TERESA BLOOD BANK',
+      address: 'Bus stop, 946 1 st Floor, Bazaar Main Rd, Srinivasa Nagar, Ram Nagar South.',
+      city: ' Madipakkam, Chennai, Tamil Nadu 600091',
+      phone: '044 2258 0803',
       hours: '24/7',
       bloodTypes: ['O+', 'O-', 'A+', 'A-', 'B+', 'B-', 'AB+', 'AB-'],
       rating: 4.8,
@@ -20,10 +21,10 @@ const BloodBanksPage = () => {
     },
     {
       id: '2',
-      name: 'Metro Blood Services',
-      address: '456 Health Plaza',
-      city: 'Los Angeles',
-      phone: '+1 (555) 234-5678',
+      name: 'VICTORY BLOOD BANK',
+      address: 'Aminjikarai Hero electric bikes, NEAR ANNA ARCH, 633/2, EVR Rd',
+      city: 'Chennai, Tamil Nadu 600030.',
+      phone: '099655 66630',
       hours: '6:00 AM - 10:00 PM',
       bloodTypes: ['O+', 'A+', 'B+', 'AB+'],
       rating: 4.6,
@@ -32,10 +33,10 @@ const BloodBanksPage = () => {
     },
     {
       id: '3',
-      name: 'Regional Blood Center',
-      address: '789 Care Ave',
-      city: 'Chicago',
-      phone: '+1 (555) 345-6789',
+      name: 'Chennai Blood Centre',
+      address: 'No. G2 & F2, NOBURAM" Flat, Plot No.2, Subban St, Varadharajapuram, Varadaraja',
+      city: 'Chennai, Tamil Nadu 600030.',
+      phone: '082485 73801',
       hours: '7:00 AM - 9:00 PM',
       bloodTypes: ['O+', 'O-', 'A+', 'A-', 'B+', 'B-'],
       rating: 4.7,
@@ -44,10 +45,10 @@ const BloodBanksPage = () => {
     },
     {
       id: '4',
-      name: 'Community Blood Bank',
-      address: '321 Wellness St',
-      city: 'Houston',
-      phone: '+1 (555) 456-7890',
+      name: 'Lions Blood Bank',
+      address: 'SCHOOL OF OPTOMETRY, 130, Marshalls Rd,Egmore.',
+      city: 'Chennai, Tamil Nadu 600008',
+      phone: '044 2841 4949',
       hours: '8:00 AM - 6:00 PM',
       bloodTypes: ['O+', 'A+', 'B+'],
       rating: 4.4,
@@ -56,10 +57,10 @@ const BloodBanksPage = () => {
     },
     {
       id: '5',
-      name: 'University Medical Blood Bank',
-      address: '654 Campus Blvd',
-      city: 'Phoenix',
-      phone: '+1 (555) 567-8901',
+      name: 'V.H.S blood Bank',
+      address: 'Pallipattu, Tharamani.',
+      city: 'Chennai, Tamil Nadu 600113',
+      phone: '044 2254 2829',
       hours: '24/7',
       bloodTypes: ['O+', 'O-', 'A+', 'A-', 'B+', 'B-', 'AB+', 'AB-'],
       rating: 4.9,
@@ -68,10 +69,10 @@ const BloodBanksPage = () => {
     },
     {
       id: '6',
-      name: 'Central Blood Services',
-      address: '987 Main Street',
-      city: 'Philadelphia',
-      phone: '+1 (555) 678-9012',
+      name: 'Centre Blood Bank',
+      address: 'New No: 8, Old No: 22, Ground Floor, 4th Cross St,Trustpuram, Kodambakkam.',
+      city: 'Chennai, Tamil Nadu 600024',
+      phone: '080720 87436',
       hours: '6:00 AM - 8:00 PM',
       bloodTypes: ['O+', 'A+', 'B+', 'AB+', 'O-'],
       rating: 4.5,
@@ -80,6 +81,7 @@ const BloodBanksPage = () => {
     }
   ];
 
+  
   const bloodGroups = ['O+', 'O-', 'A+', 'A-', 'B+', 'B-', 'AB+', 'AB-'];
   const cities = [...new Set(bloodBanks.map(bank => bank.city))].sort();
 
@@ -314,4 +316,5 @@ const BloodBanksPage = () => {
 };
 
 export default BloodBanksPage;
+
 
