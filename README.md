@@ -6,7 +6,7 @@ The platform allows donors to register their details (blood group, location, con
 Seekers can search for potential donors by blood group and location to request assistance.  
 Hosted on **Vercel**, Bloods-Connect provides a clean, intuitive interface for emergency blood requests and everyday donor matching.
 
-Live Demo: [https://bloods-connect.vercel.app/](https://bloods-connect.vercel.app/)
+Live Demo: [https://bloodsconnect.vercel.app/](https://bloodsconnect.vercel.app/)
 
 
 
