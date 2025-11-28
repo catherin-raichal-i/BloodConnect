@@ -5,7 +5,6 @@ const BloodBanksPage = () => {
   const [searchCity, setSearchCity] = useState('');
   const [selectedBloodType, setSelectedBloodType] = useState('');
 
-
   const bloodBanks = [
     {
       id: '1',
@@ -81,7 +80,6 @@ const BloodBanksPage = () => {
     }
   ];
 
-  
   const bloodGroups = ['O+', 'O-', 'A+', 'A-', 'B+', 'B-', 'AB+', 'AB-'];
   const cities = [...new Set(bloodBanks.map(bank => bank.city))].sort();
 
@@ -109,9 +107,8 @@ const BloodBanksPage = () => {
     return Array.from({ length: 5 }, (_, i) => (
       <Star
         key={i}
-        className={`h-4 w-4 ${
-          i < Math.floor(rating) ? 'text-yellow-400 fill-current' : 'text-gray-300'
-        }`}
+        className={`h-4 w-4 ${i < Math.floor(rating) ? 'text-yellow-400 fill-current' : 'text-gray-300'
+          }`}
       />
     ));
   };
@@ -215,7 +212,7 @@ const BloodBanksPage = () => {
                         <p>{bank.city}</p>
                       </div>
                     </div>
-                    
+
                     <div className="flex items-center space-x-3 text-sm text-gray-600">
                       <Navigation className="h-4 w-4 text-gray-400" />
                       <span>{bank.distance} away</span>
@@ -248,6 +245,18 @@ const BloodBanksPage = () => {
                   </div>
 
                   {/* Action Buttons */}
+                  {/* <div className="flex space-x-2">
+                    <button className="flex-1 cursor-pointer bg-red-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-red-700 transition-colors duration-200">
+                      Call Now
+                    </button>
+                    <button className="flex-1 cursor-pointer bg-blue-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors duration-200">
+                      Get Directions
+                    </button>
+                  </div> */}
+
+
+
+                  {/* Action Buttons */}
                   <div className="flex space-x-2">
                     <a
                       href={`tel:${bank.phone}`}
@@ -264,7 +273,7 @@ const BloodBanksPage = () => {
                       Get Directions
                     </a>
                   </div>
-                  
+
                 </div>
               </div>
             ))}
@@ -316,5 +325,3 @@ const BloodBanksPage = () => {
 };
 
 export default BloodBanksPage;
-
-
